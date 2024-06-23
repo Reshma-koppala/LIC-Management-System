@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Update Lic holder data</title>
+</head>
+<body>
+	<form action="LicUpdateServlet">
+		<table border='1'>
+			<tr>
+				<td>registration_number</td>
+				<td align="center"><input type="text" name="id"></td>
+			<tr>
+			<tr>
+				<td>name</td>
+				<td align="center"><input type="text" name="name"></td>
+			<tr>
+			<tr>
+				<td>mobile_number</td>
+				<td align="center"><input type="text" name="mobile number"></td>
+			<tr>
+			<tr>
+				<td>email_address</td>
+				<td align="center"><input type="email" name="email"></td>
+			<tr>
+			<tr>
+				<td>date-of-birth</td>
+				<td align="center"><input type="date" name="dob"></td>
+			<tr>
+			<tr>
+				<td>select plan</td>
+				<td align="center"><input list="plan"  name="plan"><br>
+            <datalist id="plan">
+            <option value="Monthly plan">
+            <option value="Yearly plan">
+            </datalist></td>
+			<tr>
+			<tr>
+				<td>income</td>
+				<td align="center"><input type="text" name="income"></td>
+			<tr>
+			<tr>
+				<td>no_of_dependencies</td>
+				<td align="center"><input type="text" name="dependencies"></td>
+			<tr>
+			<tr>
+				<td>country</td>
+				<td align="center"><input type="text" name="country"></td>
+			<tr>
+			<tr>
+				<td>state</td>
+				<td align="center"><input type="text" name="state"></td>
+			<tr>
+			<tr>
+				<td>city</td>
+				<td align="center"><input type="text" name="city"></td>
+			<tr>
+			<tr>
+				<td>pincode</td>
+				<td align="center"><input type="text" name="pin"></td>
+			<tr>
+			
+				<td align="center"><input type="submit" name="Update Book!"></td>
+			</tr>
+		</table>
+	</form>
+
+</body>
+</html>

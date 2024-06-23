@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration Page</title>
+</head>
+<body>
+	<table>
+	<center>
+        <form action="LicInsertServlet" >
+		<h2>LIC-Application Form</h2>
+			Registration number:<input type="text" name="id"><br>
+            Name:<input type="text" name="name"><br>
+            Mobile Number:<input type="text" name="mobile number"><br>
+            Email Address:<input type="email" name="email"><br>
+            Date-Of-Birth:<input type="date" name="dob"><br>
+            Select plan:<input list="plan"  name="plan"><br>
+            <datalist id="plan">
+            <option value="Monthly plan">
+            <option value="Yearly plan">
+            </datalist>
+            Annual Income:<input type="text" name="income"><br>
+            No.of Dependencies:<input type="text" name="dependencies"><br>
+            Country:<input type="text" name="country"><br>
+            State:<input type="text" name="state"><br>
+            City name:<input type="text" name="city"><br>
+            Pincode:<input type="text" name="pin"><br>
+            <input type="radio" name="agree"> I Agree
+            <input type="radio" name="agree"> I don't agree
+            <p>I agree and authorise LIC or its representatives to verify information and/or contact me to assist with the purchase and servicing of LIC products.</p>
+            <input type="submit" value="submit">
+        </form>
+	  </center>
+	  </table>
+	
+
+</body>
+</html>
